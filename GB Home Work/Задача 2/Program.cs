@@ -6,8 +6,12 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 if (number1 > number2)
 {
 Console.WriteLine(number1 + " - максимальное число");
+Console.WriteLine(number2 + " - минимальное число");
+
 }
 else 
 {
     Console.WriteLine(number2 + " - максимальное число");
+    Console.WriteLine(number1 + " - минимальное число");
+
 }
